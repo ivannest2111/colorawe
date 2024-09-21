@@ -47,6 +47,20 @@ body{
     font-size: 36px;
     line-height: 1.33;
 }
+.title{
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 1.33;
+    text-align: center;
+}
+.reviews{
+    background-image: url(./img/bg-reviews.png);
+}
+.forma{
+    background-image: url(./img/bg-form.png);
+    height: 509px;
+}
 .footer{
     background-color: var(--footer);
 }
