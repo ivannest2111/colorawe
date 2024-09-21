@@ -5,3 +5,52 @@
     --button:#8E32C6;
     --text:#C7C7C7;
 }
+a{
+    text-decoration: none;
+}
+ul{
+   list-style: none;
+}
+body{
+    color: var(--white);
+}
+.header{
+    background-color: var(--header);
+    font-family:'Roboto';
+}
+.nav{
+
+}
+.header-language{
+
+}
+.header-link{
+    color: var(--text);
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 1.17;
+}
+.header-link:focus,
+.header-link:hover{
+    color: var(--white);
+    font-weight: 400
+}
+.hero{
+    background-image:url(./img/bg.png);
+}
+.Advantages{
+    width: 1440px;
+    height: 606px;
+    background-image:url(./img/bg-advantages.png);
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.33;
+}
+.footer{
+    background-color: var(--footer);
+}
+.footer-link{
+    color: var(--white);
+    text-decoration: underline;
+}
