@@ -13,8 +13,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./reset.css">
     <link
-    
    rel="stylesheet"
    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
  />
@@ -41,19 +41,19 @@
     </header>
     <main>
         <section class="hero">
-          <div class="container">
+          <div class="container hero-wrap">
             <img src="./img/ed69f7fa91929ff49ecafac2bfd72360 2.png" alt="img" width="160px" height="120px">
-            <h3>C&R</h3>
+            <h3 class="logo-text-header" >C&R</h3>
           </div> 
-<div class="container">
-    <h1>ColoRawe</h1>
-    <h2>Your dream Nike</h2>
-    <p>On this site you can find custom Nike sneakers of your dreams. 
+<div class="container hero-wrap">
+    <h1 class="hero-title">ColoRawe</h1>
+    <h2 class="hero-dream">Your dream Nike</h2>
+    <p class="hero-text">On this site you can find custom Nike sneakers of your dreams. 
         The original company caт`t create such beautiful 
         sneakers as we do.
         Good luck finding your way in the world of custom sneakers.
     </p>
-    <button>Buy my Nike</button>
+    <button class="button">Buy my Nike</button>
 
 </div>
         
@@ -61,9 +61,9 @@
 <section class="Advantages">
     <div class="container">
         <ul>
-            <li><h2>Premium Quality</h2></li>
-            <li><h2>Indelible paint</h2></li>
-            <li><h2>Fast shipping</h2></li>
+            <li><h2 class="Advantages-text" id="up">Premium Quality</h2></li>
+            <li><h2 class="Advantages-text" id="down">Indelible paint</h2></li>
+            <li><h2 class="Advantages-text" id="up">Fast shipping</h2></li>
         </ul>
     </div> 
 </section>
@@ -71,27 +71,27 @@
     <div class="container">
         <h2 class="title">Reviews</h2>
         <ul>
-            <li><p>Sneakers are very 
+            <li><p class="reviews-text">Sneakers are very 
                 comfortable and well 
                 painted, nothing has 
                 worn off in a year.</p>
-                <p>25.11</p>
-                <h3>John Teylor</h3>
-                <p>With us from 2018</p>
+                <p class="reviews-date">25.11</p>
+                <h3 class="reviews-name">John Teylor</h3>
+                <p class="reviews-with-us">With us from 2018</p>
             </li>
             <li>
-                <p>I'm very happy with this color scheme.
+                <p class="reviews-text">I'm very happy with this color scheme.
                     They match all my clothes.</p>
-                <p>05.01</p>
-                <h3>Elizabeth Garsia</h3>
-                <p>With us from 2020</p>
+                <p class="reviews-date">05.01</p>
+                <h3 class="reviews-name">Elizabeth Garsia</h3>
+                <p class="reviews-with-us">With us from 2020</p>
             </li>
             <li>
-                <p>I'm very happy with this color scheme.
-                    They match all my clothes.</p>
-                <p>05.01</p>
-                <h3>Elizabeth Garsia</h3>
-                <p>With us from 2020</p>
+                <p class="reviews-text">Just right if you need to go to a party.
+                    I use them actively, the paint is super.</p>
+                <p class="reviews-date">18.06</p>
+                <h3 class="reviews-name">Tom Maquare</h3>
+                <p class="reviews-with-us">With us from 2019</p>
             </li>
         </ul>
     </div>
@@ -112,6 +112,7 @@
             <label for="">
                 <input type="text" placeholder="Your Adress" required>
             </label>
+            <button class=" button">Order my Nike</button>
         </form>
         </div>
 
@@ -121,22 +122,22 @@
     <footer class="footer">
         <div class="container">
             <div class="questions">
-                <ul>
+                <ul class="list-questions">
                     <li><p>have a question?</p></li>
                     <li><p>Have a proposal for cooperation?</p></li>
                     <li><p>Advertising questions?</p></li>
                 </ul>
-        <ul>
+        <ul class="list-help">
             <li><a href="ColoRawe_support@gmail.com" class="footer-link">ColoRawe_support@gmail.com</a></li>
             <li><a href="ColoRawe_Cooperation@gmail.com" class="footer-link">ColoRawe_Cooperation@gmail.com</a></li>
             <li><a href="ColoRawe_Advertising@gmail.com" class="footer-link">ColoRawe_Advertising@gmail.com</a></li>
         </ul>
             </div>
            <div class="information">
-            <p>2022 ColoRawe @All rights reserved</p>
-            <p>United States</p>
+            <p class="information-text">2022 ColoRawe @All rights reserved</p>
+            <p class="information-text">United States</p>
             <img src="./img/ed69f7fa91929ff49ecafac2bfd72360 2.png" alt="img" width="108px" height="81px">
-            <p>C&R</p>
+            <p class="logo-text-footer">C&R</p>
            </div> 
         </div>
     </footer>
