@@ -19,6 +19,9 @@ ul{
 body{
     color: var(--white);
 }
+.container{
+   
+}
 .button{
     background-color: var(--button);
     color: var(--white);
@@ -48,14 +51,21 @@ body{
     background-color: var(--header);
     font-family:'Roboto';
 }
-.nav{
-display:flex;
-justify-content: space-around;
+.header-wrap{
+    display: flex;
+    justify-content: space-around;
 }
+.nav{
+    display:flex;
+    justify-content: space-around;
+    gap: 20px;
+    }
 .header-language{
 display: flex;
-justify-content: space-around;
+justify-content: space-between;
+gap: 20px;
 }
+
 .header-link{
     color: var(--text);
     font-weight: 300;
@@ -94,6 +104,9 @@ justify-content: space-around;
     line-height: 1.17;
 }
 .Advantages{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     width: 1440px;
     height: 606px;
     background-image:url(./img/bg-advantages.png);
@@ -103,35 +116,81 @@ justify-content: space-around;
     line-height: 1.33;
     
 }
+.list-advantages{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 185px;
+}
 .Advantages-text{
     font-size: 36px;
     font-weight: 400;
     line-height: 1.33;
 }
-/*
-#up::before{
-content: " ";
-display: block;
-width: 240px;
-height: 240px;
-background-repeat: no-repeat;
-background-image: url(./img/Грузан\ 1.png);
+
+.stars::after{
+    content: "";
+    display: block;
+    background-image: url(./img/stars.png);
+    background-position: center;
+    width: 240px;
+    height: 240px;
 }
-*/
+.paint::before{
+    content: "";
+    display: block;
+    background-image: url(./img/paint.png);
+    width: 240px;
+    height: 240px;
+}
+.car::after{
+    content: "";
+    display: block;
+    background-image: url(./img/car.png);
+    width: 240px;
+    height: 240px;
+}
 
-
+.reviews{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 520px;
+    background-image: url(./img/bg-reviews.png);
+    font-family: 'Roboto';
+    font-weight: 400;  
+}
+.reviews-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 93px;
+}
 .title{
+    display: block;
     font-family: 'Playfair Display';
     font-weight: 400;
     font-size: 48px;
     line-height: 1.33;
     text-align: center;
 }
-.reviews{
-    height: 520px;
-    background-image: url(./img/bg-reviews.png);
-    font-family: 'Roboto';
-    font-weight: 400;  
+.reviews-item{
+    width: 255px;
+    height: 292px;
+    border-radius: 15px;
+}
+.reviews-item:nth-child(1){
+    background: linear-gradient(#00E5E6,#00A8F7,#9A76F9,#CC5EC2);
+box-shadow: 0px 14px 0px -5px #7B54B2, 0px 30px 0px -13px #533978;;
+
+}
+.reviews-item:nth-child(2){
+    background: linear-gradient(#FF68B4,#FF45E1,#CE3AFF,#8961FF);
+    box-shadow: 0px 14px 0px -5px #9159B1, 0px 30px 0px -13px #61337C;
+}
+.reviews-item:nth-child(3){
+    background: linear-gradient(#FFE128,#FF9B5C,#FF8381,#FF5489);
+box-shadow: 0px 14px 0px -5px #B95A4C, 0px 30px 0px -13px #732F26;
 }
 .reviews-text{
     font-size: 24px;
