@@ -20,7 +20,11 @@ body{
     color: var(--white);
 }
 .container{
-   
+   width: 1105;
+   margin: 0 auto;
+   padding: 15px;
+   border: 2px ;
+   border-color: #00A8F7;
 }
 .button{
     background-color: var(--button);
