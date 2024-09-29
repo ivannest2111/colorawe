@@ -9,6 +9,7 @@
 }
 body{
     font-weight: 400;
+    background-color: var(--header);
 }
 a{
     text-decoration: none;
@@ -20,22 +21,36 @@ body{
     color: var(--white);
 }
 .container{
-   width: 1105;
+   width: 1155px;
    margin: 0 auto;
-   padding: 15px;
-   border: 2px ;
-   border-color: #00A8F7;
+   padding: 0 15px;
+  border: 1px solid red;
 }
 .button{
+    display: block;
     background-color: var(--button);
     color: var(--white);
-    width: 248px;
-    height: 68px;
+   padding: 20px 61px;
+   border-color: transparent;
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 24px;
     line-height: 1.17;
     border-radius: 16px;
+    margin: 0 auto;
+}
+.hero-button{
+        display: block;
+        background-color: var(--button);
+        color: var(--white);
+       padding: 20px 49px;
+       border-color: transparent;
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 1.17;
+        border-radius: 16px;
+    
 }
 .logo-text-footer,
 .logo-text-header{
@@ -63,11 +78,13 @@ body{
     display:flex;
     justify-content: space-around;
     gap: 20px;
+    align-items: center;
     }
 .header-language{
 display: flex;
 justify-content: space-between;
 gap: 20px;
+align-items: center;
 }
 
 .header-link{
@@ -81,14 +98,18 @@ gap: 20px;
     color: var(--white);
     font-weight: 400
 }
+
 .hero{
     background-image:url(./img/bg.png);
-    height: 858px;
+    background-repeat: no-repeat;
+    background-position: center;
+   padding-top: 94px;
+
+   padding-bottom: 183px;
     font-weight: 400;   
 }
 .hero-wrap{
-    margin-left: 164px;
-    
+    padding-left:170px ;
 }
 .hero-title{
     font-size: 144px;
@@ -179,8 +200,7 @@ gap: 20px;
     text-align: center;
 }
 .reviews-item{
-    width: 255px;
-    height: 292px;
+padding: 49px 13px 29px 13px;
     border-radius: 15px;
 }
 .reviews-item:nth-child(1){
@@ -199,8 +219,10 @@ box-shadow: 0px 14px 0px -5px #B95A4C, 0px 30px 0px -13px #732F26;
 .reviews-text{
     font-size: 24px;
     line-height: 1.17;
+    margin-bottom: 8px;
 }
 .reviews-date{
+    margin-bottom: 47px;
     font-size: 14px;
     line-height: 1.17;
     color: var(--grey);
@@ -209,14 +231,59 @@ box-shadow: 0px 14px 0px -5px #B95A4C, 0px 30px 0px -13px #732F26;
     font-size: 14px;
     line-height: 1.17;
 }
+.reviews-image{
+    height: 31px;
+    width: 31px;
+    display: block;
+    
+}
 .reviews-with-us{
     font-size: 12px;
     line-height:1.17 ;
     color: var(--grey);
 }
+
 .forma{
-    background-image: url(./img/bg-form.png);
-    height: 509px;
+    background-image: url(./img/bg-form.png); 
+}
+.form{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.form-item{
+    border-color: transparent;
+    display: block;
+    width: 580px;
+    border-radius: 50px;
+    padding: 12px 25px;
+    margin: 0 auto;
+    color: var(--form);
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1.17;
+    margin-bottom: 19px;
+}
+.form-item-first{
+    width: 690px;
+}
+.btn-form{
+    position: absolute;
+    top: 40px;
+    right: -40px;
+    background-color: transparent;
+    color: var(--form);
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1.17;
+    border: none;
+}
+.form-first-label{
+    position: relative;
 }
 .footer{
     background-color: var(--footer);
