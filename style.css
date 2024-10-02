@@ -135,6 +135,7 @@ align-items: center;
     width: 1440px;
     height: 606px;
     background-image:url(./img/bg-advantages.png);
+    background-position: center;
     font-family: 'Playfair Display';
     font-weight: 400;
     font-size: 36px;
@@ -182,6 +183,7 @@ align-items: center;
     align-items: center;
     height: 520px;
     background-image: url(./img/bg-reviews.png);
+    background-position: center;
     font-family: 'Roboto';
     font-weight: 400;  
 }
@@ -289,18 +291,24 @@ box-shadow: 0px 14px 0px -5px #B95A4C, 0px 30px 0px -13px #732F26;
     background-color: var(--footer);
 }
 .questions{
+    display: flex;
+    
     font-size: 24px;
     line-height: 1.17;
     font-weight: 400;
 }
 .list-questions{
-    text-align: left;
-    margin-left: 165px;
-  
+   display: flex;
+   justify-content: left;
+   flex-direction: column;
+   gap: 10px;
+   margin-right: 373px;
 }
 .list-help{
-    text-align: right;
-    margin-right:165px ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
 }
 .information-text{
     font-weight: 400;
@@ -308,6 +316,23 @@ box-shadow: 0px 14px 0px -5px #B95A4C, 0px 30px 0px -13px #732F26;
     line-height: 1.17;
 }
 .footer-link{
+    display: flex;
+    justify-content: right;
     color: var(--white);
     text-decoration: underline;
+}
+.information{
+    display: flex;
+    align-items: center;
+}
+.list-when-where{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    margin-right: 724px;
+}
+.list-info{
+    display: flex;
+    justify-content: flex-end;
+   flex-direction: column;
 }
