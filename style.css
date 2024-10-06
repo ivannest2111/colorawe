@@ -153,7 +153,9 @@ align-items: center;
     line-height: 1.33;
     
 }
-
+.Advantages-wrap{
+    border: 5px solid  #8E32C6;
+}
 .list-advantages{
     display: flex;
     justify-content: space-between;
