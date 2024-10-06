@@ -116,9 +116,7 @@ align-items: center;
     margin-right: auto;   
     margin-left: auto;
 }
-.hero-wrap{
-   
-}
+
 .hero-title{
     font-size: 144px;
     line-height: 1.33;
@@ -155,9 +153,7 @@ align-items: center;
     line-height: 1.33;
     
 }
-.Advantages-wrap{
-    
-}
+
 .list-advantages{
     display: flex;
     justify-content: space-between;
